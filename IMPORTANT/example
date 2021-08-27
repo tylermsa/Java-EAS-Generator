@@ -1,0 +1,24 @@
+EMERGENCY ALERT SYSTEM
+Primary Entry Point System
+National Periodic
+Test
+1
+District of Columbia, DC
+08/11/2021 14:50:00 EDT
+JavaEASGenerator (GitHub)
+(sound file)
+
+(TEST ALERT FOR EAS_GENERATOR)
+
+FORMAT:
+Line 1 is the Header of the alert
+Line 2 is the Issuer of the alert
+Linee 3-4 make up the alert itself, Line 3 indicates the hazard and line 4 indicates the alert type (warning/ watch/ advisory)
+Line 5 counts the number of lines the code reads for the locations. DO NOT NEGLECT THIS LINE OR ELSE THE SCROLLING WILL NOT WORK!!!!
+After Line 5, you can add all of the counties/ areas where the hazard is affecting. Add as many lines as you have set up in Line 5. Otherwise, the scrolling may read the rest of the program incorrectly.
+After you add the counties and areas, the last three lines should follow this:
+- Expiration of the alert (mm/dd/yyyy hh:hh:ss TMZ)
+- Station ID or Programming ID relaying the Emergency Broadcast
+- Add a sound filepath for the alert to play thorugh (haven't played through that though, would like some assistance on that would be noice
+
+The program will stop reading after the sound file-ish, so you can write as much notes and shit if you want to add context to the files you make in your alerts.
