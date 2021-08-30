@@ -1,4 +1,5 @@
 // tylermsa
+// Special Thanks to Patrick Feltes for the ideas on this StateManager
 
 import java.awt.Graphics;
 import java.util.Stack;
