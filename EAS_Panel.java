@@ -15,6 +15,7 @@ public class EAS_Panel extends JPanel implements Runnable, KeyListener
    private static final long SERIAL_VERSION_IUD = 1L;
    
    // Dimensions (1:1 or 4:3?) // 1600x900
+   // You can change the dimensions, but try not to do any weird ratios
    static final int WIDTH = 1600;
    static final int HEIGHT = 900;
    
@@ -27,8 +28,8 @@ public class EAS_Panel extends JPanel implements Runnable, KeyListener
    private long targetTime = 1000 / fps;
    
    // Panel Colors
-   static final Color PANEL_COLOR = Color.BLACK;
-   static final Color TEXT_COLOR = Color.WHITE;
+   static final Color PANEL_COLOR = Color.BLACK; // Change the background color of the alert
+   static final Color TEXT_COLOR = Color.WHITE; // Change the text color of the alert
    
    // State Manager
    private EAS_StateManager manager;
@@ -55,7 +56,7 @@ public class EAS_Panel extends JPanel implements Runnable, KeyListener
       
    }  // private void start()
    
-   
+   // Thanks Patrick Feltes for the inspiration of the code
    public void run()
    {
       long start, elapsed, wait;
